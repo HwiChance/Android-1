@@ -38,8 +38,8 @@ public class MainActivity extends AppCompatActivity {
 }
 ```
 
-- 컴포넌트 클래스이므로 AndroidManifest.xml 파일에 <receiver> 태크로 등록.
-- <activity>와 마찬가지로 암시적 인텐트에 의해 실행되어야 한다면, <intent-filter>를 사용 가능.
+- 컴포넌트 클래스이므로 AndroidManifest.xml 파일에 \<receiver\> 태크로 등록.
+- \<activity\>와 마찬가지로 암시적 인텐트에 의해 실행되어야 한다면, <intent-filter>를 사용 가능.
 ```xml
 <receiver
             android:name=".MyReceiver"
